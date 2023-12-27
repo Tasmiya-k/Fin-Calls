@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@700&family=Itim&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.landing-body {
+  max-width: 100%;
+  max-height: 100%;
+  background-image: url(/public/images/Hall1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  /* background-attachment: fixed;
+  background-position: center center; */
+}
+
+.landing-main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.landing-gifs {
+  display: flex;
+  width: 258px;
+  height: 450px;
+  margin-top: 60%;
+}
+
+button {
+  background-color: #0010a3;
+  color: #fff;
+  font-size: 30px;
+  width: 200px;
+  height: 60px;
+  border-radius: 30px;
+}
+.landing-c2 {
+  align-items: center;
+}
+.landing-c2- {
+  margin-top: 15%;
+}
+.button {
+  margin-left: 50px;
+}
+.title {
+  font-family: "Inika", serif;
+  margin-left: 30px;
+  font-size: 60px;
+  color: #6c32cc;
+}
+.subtitle {
+  font-family: "Itim", cursive;
+  color: #2026b1;
+}
+.navbar {
+  display: flex;
+  height: 100px;
+  background-color: #0010a3;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navitems {
+  display: flex;
+  margin: 17px;
+  font-family: "Itim", cursive;
+  font-size: 25px;
+  padding: 0;
+}
+
+.profile-left {
+  display: flex;
+  align-items: center;
+}
+
+.profile-right {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+ul li {
+  margin: 30px;
+  list-style: none;
+}
+ul li .nav-link {
+  text-decoration: none;
+  color: #fff;
+  padding: 35px;
+}
+/* #0610FF */
+
+.nav-link.active,
+.nav-link:hover {
+  background-color: #0610ff;
+  transition: 0.5s;
+}
+
+.home-title {
+  font-family: "Inika", serif;
+  color: #fff;
+  font-size: 35px;
+  margin-left: 20px;
+}
+
+.home-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+/* .home-main-video{
+
+} */
+
+.button-home {
+  font-size: 26px;
+  width: 250px;
+  height: 80px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.home-sec1-div1 {
+  display: flex;
+  flex-direction: row;
+}
+.home-sec1 {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+/* .home-sec2{
+
+} */
+
+.about-sec2-div1 {
+  display: flex;
+  margin: 20px;
+}
+
+.about-img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin: 8px;
+}
+.about-img-row {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  gap: 20px;
+}
+.about-para {
+  margin: 5px;
+  font-family: "Inika", serif;
+  color: #2026b1;
+  font-size: 20px;
+}
+
+.about-sec2-title {
+  font-family: "Itim", cursive;
+  color: #6c32cc;
+  font-size: 40px;
+  margin-left: 23%;
+  margin-top: 10%;
+}
+.contact-main {
+  display: flex;
+  justify-content: space-evenly;
+  height: 80vh;
+  margin-top: 20px;
+}
+
+.contact-form {
+  margin-top: 10px;
+  border: 1px solid black;
+  background-color: #d3fcff;
+  padding: 15px;
+  height: 425px;
+}
+
+.contact-form-row {
+  display: flex;
+  justify-content: space-around;
+}
+.contact-form-ele {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+label {
+  font-family: "Itim", cursive;
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+
+.name,
+.email {
+  height: 40px;
+}
+
+.desc {
+  height: 70px;
+}
+
+.contact-submit-div {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-submit {
+  margin-top: 20px;
+  font-family: "Itim", cursive;
+  height: 52px;
+  width: 132px;
+  font-size: 25px;
+}
+
+.afterupload-main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.afterupload-button-sec1 {
+  display: flex;
+  gap: 35px;
+  margin: 35px;
+}
+
+.after-upload-butt {
+  padding: 50px;
+  font-size: 20px;
+}
+
+.file-upload {
+  display: none;
+}
+
+.button-home {
+  background-color: #0010a3;
+  color: #fff;
+  font-size: 30px;
+  width: 200px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.custom-file-upload{
+  background-color: #0010a3;
+  color: #fff;
+  font-size: 20px;
+  width: 200px;
+  height: 60px;
+  border-radius: 30px;
+  padding: 14px;
+  margin-top: 10px;
+}
